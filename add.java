@@ -1,5 +1,5 @@
+import java.util.*;
 import java.util.Scanner;
-
 class Calc {  
     public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);  
@@ -13,7 +13,7 @@ class Calc {
         int c = a + b;  
         System.out.println("Addition is: " + c);  
 
-        sc.close(); // Closing Scanner to prevent memory leaks
+        sc.close(); 
     }  
 }
 
