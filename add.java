@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Calc {  
     public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);  
-
+        System.out.println("the addition code begin");
         System.out.println("Enter first number (a):");  
         int a = sc.nextInt();  
 
